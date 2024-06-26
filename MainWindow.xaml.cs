@@ -159,7 +159,7 @@ namespace WpfRecipeApp
         private void DeleteRecipe_Click(object sender, RoutedEventArgs e)
         {
             if (RecipeListBox.SelectedItem is Recipe selectedRecipe)
-            {
+            { 
                 recipes.Remove(selectedRecipe);
                 displayedRecipes = recipes.OrderBy(recipe => recipe.Name).ToList(); // Update displayedRecipes after deletion
                 RecipeListBox.ItemsSource = null;
