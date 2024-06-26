@@ -1,5 +1,7 @@
 
 Peace's Recipe App
+
+
 Overview of the App
 Peace's Recipe App is a WPF application that allows users to create, manage, and view recipes. Users can filter recipes by ingredients, food groups, and calorie limits, scale recipes, reset quantities, and more. The application features a user-friendly graphical interface with a cohesive colour scheme. 
 Features on My App
