@@ -162,7 +162,7 @@ namespace WpfRecipeApp
             { 
                 recipes.Remove(selectedRecipe);
                 displayedRecipes = recipes.OrderBy(recipe => recipe.Name).ToList(); // Update displayedRecipes after deletion
-                RecipeListBox.ItemsSource = null;
+                RecipeListBox.ItemsSource = null; 
                 RecipeListBox.ItemsSource = displayedRecipes;
                 RecipeNameTextBlock.Text = string.Empty;
                 IngredientsListBox.ItemsSource = null;
