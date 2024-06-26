@@ -1,0 +1,18 @@
+﻿<Window x:Class="WpfRecipeApp.InputBox"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Input Box" Height="150" Width="400">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <TextBlock Name="PromptTextBlock" Margin="10"/>
+        <TextBox Name="InputTextBox" Margin="10" Grid.Row="1"/>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Grid.Row="2" Margin="10">
+            <Button Content="OK" Width="75" Click="OK_Click"/>
+            <Button Content="Cancel" Width="75" Margin="10,0,0,0" Click="Cancel_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
