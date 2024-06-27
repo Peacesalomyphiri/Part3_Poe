@@ -168,7 +168,7 @@ namespace WpfRecipeApp
                 IngredientsListBox.ItemsSource = null;
                 StepsListBox.ItemsSource = null;
                 TotalCaloriesTextBlock.Text = string.Empty;
-            }
+            } 
             else
             { 
                 MessageBox.Show("Please select a recipe to delete.");
